@@ -1,104 +1,103 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.flex-container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 7%;
+}
 
-dy {
-	  height: 100%;
-	    width: 100%;
-    }
-    body {
-	        font-size: 15px;
-		    font-family: 'Lexend Deca', sans-serif;
-		        font-weight: 400;
-			    line-height: 1.6;
-		    }
-		    .flex-container {
-			        display: flex;
-				    width: 50%;
-				        margin: auto;
-					    margin-top: 7%;
-				    }
+.flex1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5%;
+}
 
-				    .flex1 {
-					        background-color: hsl(31, 77%, 52%);
-						    padding: 5%;
-					    }
+.flex2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 5%;
+}
 
-					    .flex2 {
-						        background-color: hsl(184, 100%, 22%);
-							    padding: 5%;
-						    }
+.flex3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 5%;
+}
 
-						    .flex3 {
-							        background-color: hsl(179, 100%, 13%);
-								    padding: 5%;
-							    }
+h2, button {
+    color: hsl(0, 0%, 95%);
+}
 
-							    h2, button {
-								        color: hsl(0, 0%, 95%);
-								}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
 
-								p {
-									    color: hsla(0, 0%, 100%, 0.75);
-								    }
+.btn {
+    border-radius: 10px;
+    border: 0ch;
+    padding: 10px;
+    margin-top: 20px;
+}
+.btn-orange {
+    color: hsl(31, 77%, 52%);
+}
 
-								    .btn {
-									        border-radius: 10px;
-										    border: 0ch;
-										        padding: 10px;
-											    margin-top: 20px;
-										    }
-										    .btn-orange {
-											        color: hsl(31, 77%, 52%);
-											}
+.btn-cyan {
+    color: hsl(184, 100%, 22%);
+}
 
-											.btn-cyan {
-												    color: hsl(184, 100%, 22%);
-											    }
+.btn-grey {
+    color: hsl(179, 100%, 13%);
+}
 
-											    .btn-grey {
-												        color: hsl(179, 100%, 13%);
-												}
-
-												.grid-container {
-													    display: grid;
-													        gap: 7px;
-														    background-color: darkblue;
-														        padding: 10px;
-															    width: 50%;
-															        margin: auto;
-																    height: 400px;
-																      }
-																        
-																        .grid-item {
-																		    text-align: center;
-																		        padding: 20px;
-																			  }
-																			    
-																			    .item1 {
-																				        grid-column: 1 / span 2;
-																					    grid-row: 1;
-																					        background-color: red;
-																						  
-																						  }
-																						    
-																						    .item2 {
-																							        grid-row: 1;
-																								    grid-column: 3;
-																								        background-color: orange;
-																									  }
-																									    
-																									    .item3 {
-																										      grid-column: 1;
-																										        grid-row: 2 /span 2;
-																											  background-color: green;
-																											    
-																											    }
-																											      .item4 {
-																												          grid-column: 2 / span 2;
-																													      grid-row: 2;
-																													          background-color: lightblue;
-																														    }
-																														      
-																														      .item5 {
-																															          grid-column: 2 /span 2;
-																																      grid-row: 3;
-																																          background-color: lightblue;
-																																	    }
+.grid-container {
+    display: grid;
+    gap: 7px;
+    background-color: darkblue;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    height: 400px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-color: red;
+  
+  }
+  
+  .item2 {
+    grid-row: 1;
+    grid-column: 3;
+    background-color: orange;
+  }
+  
+  .item3 {
+  grid-column: 1;
+  grid-row: 2 /span 2;
+  background-color: green;
+  
+  }
+  .item4 {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    background-color: lightblue;
+  }
+  
+  .item5 {
+    grid-column: 2 /span 2;
+    grid-row: 3;
+    background-color: lightblue;
+  }
